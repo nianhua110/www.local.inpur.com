@@ -1,0 +1,43 @@
+/* CSS Document */
+.login{
+	width: 400px;
+	height: 300px;
+	margin: 180px auto 0;
+}
+
+.login li{
+	height:60px;
+	line-height:60px;
+	font-size: 16px;
+}
+
+.login label{
+	margin-left:10px;
+}
+
+.inputtext{
+	width: 300px;
+	height:26px;
+	line-height:26px;
+	padding:3px 5px;
+	border: 1px solid #CCC;
+	font-size: 14px;
+	color: #666666;
+}
+
+a.login_btn{
+	display:inline-block;
+	width: 70px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	background:#0072C6;
+	font-size:14px;
+	color:#FFFFFF;
+	cursor:pointer;
+	margin:20px 20px 0 46px;
+}
+
+a:hover.login_btn{
+	background:#1E82CC;
+}

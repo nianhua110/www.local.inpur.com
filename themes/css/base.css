@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 12px;
+	color: #666666;
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+	list-style: none;
+}
+
+a{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #131313;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: block;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+body{
+	background: url("../images/background.jpg") 0 0 repeat;
+}
+
+/*头部*/
+.wrapper{
+	width: 932px;
+	background: #ECECEC;
+	position: relative;
+	margin: 30px auto;
+	padding:15px;
+}
+
+.main{
+	background: #F6F6F6;
+	border: 1px solid #FCFCFC;
+}
+
+.header{
+	height:auto;
+}
+
+.logo{
+	float: left;
+	margin-left:30px;
+}
+
+.name{
+	float: right;
+	margin-right: 30px;
+}
+
+.name img{
+	margin-top: 35px;
+}
+
+.nav{
+	margin-top:20px;
+	padding-left: 38px;
+	background: #F0F0F0;
+}
+
+.nav li{
+	float: left;
+}
+
+.nav li a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.location{
+	width:850px;
+	margin:10px auto;
+}
+
+/*分页*/
+.page{
+    margin-top:10px;
+    text-align:right;
+}
+
+.page a{
+    margin:0 5px;
+    display:inline-block;
+}
+
+.page a:hover{
+    text-decoration: underline;
+}
+
+.page span{
+    margin-left: 5px;
+    display:inline-block;
+}
+
+
+/*底部*/
+.footer{
+	height:40px;
+	line-height:40px;
+	background: #E8E8E8;
+	border-top:1px solid #FFFFFF;
+	text-align:right;
+	padding-right:15px;
+}

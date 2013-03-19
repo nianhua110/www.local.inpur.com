@@ -1,0 +1,197 @@
+/**
+ * 登录
+ */
+.login{
+	width: 400px;
+	height: 300px;
+	margin: 180px auto 0;
+}
+
+.login li{
+	height:60px;
+	line-height:60px;
+	font-size: 16px;
+}
+
+.login label{
+	margin-left:10px;
+}
+
+.inputtext{
+	width: 300px;
+	height:26px;
+	line-height:26px;
+	padding:3px 5px;
+	border: 1px solid #CCC;
+	font-size: 14px;
+	color: #666666;
+}
+
+a.login_btn{
+	display:inline-block;
+	width: 70px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	background:#0072C6;
+	font-size:14px;
+	color:#FFFFFF;
+	cursor:pointer;
+	margin:20px 20px 0 46px;
+}
+
+a:hover.login_btn{
+	background:#1E82CC;
+}
+
+/**
+ * 表格
+ */
+.table{
+    position:absolute;
+    z-index:1;
+    left:30px;
+    top:30px;
+}
+
+.table h1{
+	height:30px;
+	font-size:14px;
+	color:#000;
+}
+
+.table table{
+	border-color:#DDD;
+	border-style:solid none solid solid;
+	border-width:1px;
+	border-radius:3px;
+}
+
+.table table thead{
+	background:#F4F4F4;
+}
+
+.table table tr td{
+	border-color:#DDD;
+	border-style:solid solid none none;
+	border-width:1px;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	text-align:center;
+}
+
+.table table tr th{
+	border-right:1px solid #DDD;
+	text-align:center;
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+	color:#000;
+}
+
+.table li{
+	height:40px;
+	line-height:40px;
+}
+
+.table li span {
+    display: inline-block;
+    width:75px;
+    text-align:right;
+}
+
+.table li .text ｛
+   height: 400px;
+   width: 600px;
+}
+
+
+/**
+ * 用户
+ */
+.iptext{
+	width:220px;
+	height:24px;
+	line-height:24px;
+	border:1px solid #CCC;
+	border-radius:3px;
+	padding:3px 5px;
+}
+
+.user_add,.cate_add{
+	margin: 0 10px 0 60px;
+}
+
+/**
+ * 站点
+ */
+.info{
+	width:600px;
+	margin-top:20px;
+}
+
+.info th{
+	width:120px;
+	text-align:right;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+}
+
+.info td{
+	width:220px;
+	text-align:left;
+	height:30px;
+	line-height:30px;
+}
+
+/**
+ * 站点设置
+ */
+.site {
+	width:600px;
+	margin-top:20px;
+}
+
+.site th{
+	width:120px;
+	text-align:right;
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+}
+ 
+.site td{
+	height:50px;
+	line-height:50px;
+}
+
+/**
+ *     添加新文章
+ */
+.iptext2{
+    height:24px;
+    line-height:24px;
+    border:1px solid #CCC;
+    padding:3px 5px;
+    width:300px;
+    border-radius:3px;
+}
+
+.opt{
+    width:100px;
+    border:1px solid #CCC;
+    height:24px;
+    line-height:24px;
+    border-radius:3px;
+}
+
+.page{
+    margin: 10px 0;
+}
+
+.page a:hover{
+    color:#F00;
+    text-decoration: underline;
+}
